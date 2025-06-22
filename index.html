@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>叶浩明个人介绍</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- 预加载关键资源 -->
+    <link rel="preload" href="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=500&q=80" as="image">
+    <link rel="preload" href="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" as="script">
+    
+    <!-- particles.js库 -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <!-- 加载进度条 -->
+    <div id="loading-bar"></div>
+    
+    <!-- 粒子背景 -->
+    <div id="particles-js"></div>
+    
+    <!-- 导航栏 -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#home" class="nav-link">首页</a>
+            <a href="#about" class="nav-link">关于小明</a>
+            <a href="#story" class="nav-link">成长事迹</a>
+            <a href="#sanctions" class="nav-link">特殊经历</a>
+            <a href="#honors" class="nav-link">荣誉成绩</a>
+        </div>
+    </nav>
+    
+    <!-- 头部横幅 -->
+    <header id="home" class="header">
+        <div class="header-content">
+            <div class="title-container">
+                <div class="typewriter">
+                    <h1 class="glowing-text">叶浩明</h1>
+                </div>
+                <div class="tagline">
+                    <p>广安加德学校的电脑管理员 | 优秀班委干部 | 活跃的12岁少年</p>
+                </div>
+            </div>
+        </div>
+        <div class="wave"></div>
+    </header>
+    
+    <!-- 基本信息 -->
+    <section id="about" class="container" style="padding: 80px 0;">
+        <h2>关于小明</h2>
+        <div class="info-grid">
+            <div class="info-card animate-in" style="animation-delay: 0.1s;">
+                <div class="card-header">
+                    <h3 style="color: white !important;">个人信息</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="info-list">
+                        <li>
+                            <i class="fas fa-user"></i>
+                            <span><strong>姓名：</strong>叶浩明</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-birthday-cake"></i>
+                            <span><strong>年龄：</strong>12岁</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-venus-mars"></i>
+                            <span><strong>性别：</strong>男生</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong>班级职务：</strong>电脑管理员</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="info-card animate-in" style="animation-delay: 0.2s;">
+                <div class="card-header">
+                    <h3 style="color: white !important;">生活信息</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="info-list">
+                        <li>
+                            <i class="fas fa-home"></i>
+                            <span><strong>居住小区：</strong>上层半岛</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span><strong>所在地区：</strong>四川省广安市广安区</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-school"></i>
+                            <span><strong>就读学校：</strong>广安加德学校</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <span><strong>特殊身份：</strong>班委成员</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="info-card animate-in" style="animation-delay: 0.3s;">
+                <div class="card-header">
+                    <h3 style="color: white !important;">兴趣与技能</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="info-list">
+                        <li>
+                            <i class="fas fa-laptop"></i>
+                            <span><strong>热爱电脑技术</strong></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-users"></i>
+                            <span><strong>擅长社交沟通</strong></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-lightbulb"></i>
+                            <span><strong>富有创新思维</strong></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-hands-helping"></i>
+                            <span><strong>乐于助人解难</strong></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 成长事迹时间轴 -->
+    <section id="story" style="background: #f1f8f1; padding: 100px 0;">
+        <div class="container">
+            <h2>成长事迹</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">七年级上学期</div>
+                    <div class="timeline-content">
+                        <h3>电脑管理员的起点</h3>
+                        <p>当初，潘哥——那位一班的技术担当——不知怎地，突然对管理电脑的职务失去了兴致。仿佛心有灵犀一般，他目光转向了叶浩明，递上了这份意外的差事。</p>
+                        <p>少年没有丝毫犹豫，笑着接过了这根指挥棒，喜悦之情溢于言表。毕竟，能够名正言顺地接触那些发光的屏幕和神秘的机器，对他而言简直是天赐良机。</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">任职初期</div>
+                    <div class="timeline-content">
+                        <h3>欢乐的电脑时光</h3>
+                        <p>从那一天起，下课铃声对于叶浩明有了新的意义。当别的同学冲出教室奔向操场时，他却逆着人流，径直走向教室一角的电脑。</p>
+                        <p>屏幕亮起，敲击键盘的声音如清泉流淌。每一次探索，每一次尝试，都是那么新奇而令人振奋。教室里回荡着他专注而快乐的气息。</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">七年级</div>
+                    <div class="timeline-content">
+                        <h3>珍贵的友谊萌芽</h3>
+                        <p>在那些与机器对话的时光里，意外却自然地，与代沛灵结下了不解之缘。也许是一次简单的请教，也许是无意间的技术展示，总之两颗年轻的心就这样慢慢靠近了。</p>
+                        <p>他们谈论程序，分享心得，在数字世界里共同探险。这段友情，为叶浩明的电脑管理之旅增添了一抹温暖的亮色。</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">新学期</div>
+                    <div class="timeline-content">
+                        <h3>跃入新天地</h3>
+                        <p>凭借不懈的努力和过人的才智，小明成功晋级超前班——四班！这一跳跃，既是对他能力的认可，也是新征程的开始。</p>
+                        <p>自然而然地，电脑管理员的职责也随他来到新班级。熟悉的电脑，陌生的面孔，崭新的环境带来的是兴奋与挑战交织的复杂心情。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 特殊经历 -->
+    <section id="sanctions" class="sanctions-section">
+        <div class="container sanction-container">
+            <h2>特殊经历</h2>
+            <div class="sanction-grid">
+                <div class="sanction-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-ban"></i>
+                            <h3>驱逐出境</h3>
+                            <p>"侯老师，吃香蕉吗？"</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>一根香蕉的故事</h3>
+                            <p>那天，叶浩明兴高采烈地走向侯老师，手里握着一根黄澄澄的香蕉。带着真诚的笑容，他递上水果询问："老师，您要不要吃根香蕉？"</p>
+                            <p>在叶浩明心中，这是再平常不过的善意分享。然而教学严格的侯老师却认为这是课堂纪律的挑战，当即做出了严厉的决定——请出教室，门外反思。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sanction-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-usb"></i>
+                            <h3>U盘疑云</h3>
+                            <p>神秘消失的存储工具</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>存储介质风波</h3>
+                            <p>至今，U盘消失的真相仍然扑朔迷离，像一层薄雾笼罩着回忆。是技术实践中的失误？还是管理规则的无意违反？具体原因已难追寻。</p>
+                            <p>唯一确定的是那个熟悉的银色设备从此不再出现在小明的工具盒里。这次经历，无疑给这位年轻的管理者上了关于责任的重要一课。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sanction-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-redo-alt"></i>
+                            <h3>系统重置</h3>
+                            <p>界面上一切归零</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>失控的操作权限</h3>
+                            <p>权力的边界在哪里？年轻的叶浩明在过度兴奋中似乎越过了一条无形的线。安装的程序？修改的设置？还是课堂时间的误用？</p>
+                            <p>侯老师发现时已太迟，只能启动最终解决手段——让所有系统回归初始状态。对叶浩明而言，这无异于一次技术领域的小型地震，所有精心调整的设置瞬间归零。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 荣誉成绩 -->
+    <section id="honors" class="container" style="padding: 100px 0 70px;">
+        <h2>荣誉成绩</h2>
+        <div class="honors-container">
+            <div class="award-box">
+                <div class="award-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <div class="award-content">
+                    <h3 style="color: var(--secondary);"><i class="fas fa-medal"></i> 优秀班委干部</h3>
+                    <p>精致奖状上印着烫金字样，承载着学校对叶浩明管理工作的肯定。这份荣誉并非轻易获取，而是无数个课前调试和课后维护换来的认可。</p>
+                    <p>每当看到这份证书，那些在屏幕前排障的时光、为同学解决问题的场景就会浮现在眼前。责任与荣誉，在这个少年身上得到了最好的诠释。</p>
+                </div>
+            </div>
+            
+            <div class="award-box">
+                <div class="award-icon">
+                    <i class="fas fa-file-certificate"></i>
+                </div>
+                <div class="award-content">
+                    <h3 style="color: var(--secondary);"><i class="fas fa-scroll"></i> 班委聘书</h3>
+                    <p>深蓝色封面的聘书上，叶浩明三个字格外醒目。这份正式文件不仅是身份的证明，更是师生信任的契约。</p>
+                    <p>从七年级接过潘哥的职责至今，这份聘书见证了小明在技术管理道路上的每一步成长。每一次打开它，都能感受到肩上的责任与心中的自豪。</p>
+                </div>
+            </div>
+            
+            <div class="award-box">
+                <div class="award-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="award-content">
+                    <h3 style="color: var(--secondary);"><i class="fas fa-laptop-code"></i> 电脑技术能手</h3>
+                    <p>虽然没有奖杯和绶带，但叶浩明获得了一项更珍贵的认可——同学们私下授予的"技术能手"称号。</p>
+                    <p>当系统出现异常，当投影设备罢工，当U盘无法识别时，大家第一个想到的求助对象总是他。这种源于实际能力而非形式主义的肯定，成为了少年心中最闪亮的勋章。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>叶浩明</h3>
+                    <p>广安加德学校七年级学生</p>
+                    <p>班级电脑管理员</p>
+                    <p>优秀班委干部</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>联系信息</h3>
+                    <p>所在地区：四川省广安市广安区</p>
+                    <p>居住小区：上层半岛</p>
+                    <p>就读学校：广安加德学校</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>成长足迹</h3>
+                    <p>从普通学生到技术能手</p>
+                    <p>从一班的接手到四班的继续</p>
+                    <p>挑战与荣誉交织的青春路</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2025 叶浩明个人介绍网站 | 版权所有</p>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+</body>
+</html>
